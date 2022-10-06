@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Book My Show</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Book My Show</description>
+    <title>Hugo</title>
+    <link>/</link>
+    <description>Recent content on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Oct 2022 12:01:59 +0530</lastBuildDate>
-    
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 06 Oct 2022 21:50:21 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Login</title>
+      <link>/posts/login/</link>
+      <pubDate>Thu, 06 Oct 2022 21:50:21 +0530</pubDate>
+      
+      <guid>/posts/login/</guid>
+      <description>Login page</description>
+    </item>
     
     <item>
       <title>First Post</title>
-      <link>http://example.org/posts/first-post/</link>
+      <link>/posts/first/</link>
       <pubDate>Tue, 04 Oct 2022 12:01:59 +0530</pubDate>
       
-      <guid>http://example.org/posts/first-post/</guid>
-      <description></description>
+      <guid>/posts/first/</guid>
+      <description>First Post Heading </description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>/posts/second/</link>
+      <pubDate>Tue, 04 Oct 2022 12:01:59 +0530</pubDate>
+      
+      <guid>/posts/second/</guid>
+      <description>Second Post Heading Second Post Sub Heading This is a paragraph.</description>
     </item>
     
   </channel>
